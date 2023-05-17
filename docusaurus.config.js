@@ -78,10 +78,10 @@ const config = {
             label: "Wiki",
           },
           //{ to: "/blog", label: "Blog", position: "left" },
-          { to: "/contact-form", label: "Contacto", position: "left" },
-          { to: "/helloMarkdown", label: "Prueba Markdown", position: "left" },
+          //{ to: "/contact-form", label: "Contacto", position: "left" },
+          //{ to: "/helloMarkdown", label: "Prueba Markdown", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/omarMillanCazares/acui-wiki.og",
             label: "GitHub",
             position: "right",
           },
@@ -95,7 +95,7 @@ const config = {
             items: [
               {
                 label: "Tutorial",
-                to: "/docs/intro",
+                to: "/docs/Introducción/Bienvenido",
               },
             ],
           },
