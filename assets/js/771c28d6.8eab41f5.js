@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacui_wiki=self.webpackChunkacui_wiki||[]).push([[5184],{9284:a=>{a.exports=JSON.parse('{"label":"hola","permalink":"/acui-wiki/blog/tags/hola","allTagsPath":"/acui-wiki/blog/tags","count":1}')}}]);

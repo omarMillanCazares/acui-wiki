@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkacui_wiki=self.webpackChunkacui_wiki||[]).push([[2569],{7711:a=>{a.exports=JSON.parse('{"permalink":"/acui-wiki/blog/tags/hola","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

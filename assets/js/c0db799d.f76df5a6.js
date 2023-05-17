@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkacui_wiki=self.webpackChunkacui_wiki||[]).push([[3101],{7196:i=>{i.exports=JSON.parse('{"title":"Introducci\xf3n","slug":"/category/introducci\xf3n","permalink":"/acui-wiki-og/docs/category/introducci\xf3n","navigation":{"next":{"title":"Bienvenido","permalink":"/acui-wiki-og/docs/Introducci\xf3n/Bienvenido"}}}')}}]);
