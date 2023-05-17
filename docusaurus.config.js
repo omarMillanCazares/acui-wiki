@@ -14,12 +14,12 @@ const config = {
   url: "https://omarmillancazares.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/acui-wiki-og/",
+  baseUrl: "/acui-wiki/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "omarMillanCazares", // Usually your GitHub org/user name.
-  projectName: "acui-wiki-og", // Usually your repo name.
+  projectName: "acui-wiki", // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: "throw",
@@ -81,7 +81,7 @@ const config = {
           { to: "/contact-form", label: "Contacto", position: "left" },
           //{ to: "/helloMarkdown", label: "Prueba Markdown", position: "left" },
           {
-            href: "https://github.com/omarMillanCazares/acui-wiki.og",
+            href: "https://github.com/omarMillanCazares/acui-wiki",
             label: "GitHub",
             position: "right",
           },
