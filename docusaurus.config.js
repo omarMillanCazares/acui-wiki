@@ -77,7 +77,7 @@ const config = {
             position: "left",
             label: "Wiki",
           },
-          //{ to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog", label: "Blog", position: "left" },
           { to: "/contact-form", label: "Contacto", position: "left" },
           //{ to: "/helloMarkdown", label: "Prueba Markdown", position: "left" },
           {
