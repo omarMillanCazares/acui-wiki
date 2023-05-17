@@ -3,6 +3,7 @@ import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import "/src/css/App.css";
 import Swal from "sweetalert2";
 import emailjs from "emailjs-com";
+import Layout from "@theme/Layout";
 
 const SERVICE_ID = "service_bix39o5";
 const TEMPLATE_ID = "template_rpnt4h2";
@@ -31,41 +32,43 @@ const App = () => {
     e.target.reset();
   };
   return (
-    <div className="App">
-      <Form onSubmit={handleOnSubmit}>
-        <Form.Field
-          id="form-input-control-email"
-          control={Input}
-          label="Email"
-          name="from_email"
-          placeholder="Email…"
-          required
-          icon="mail"
-          iconPosition="left"
-        />
-        <Form.Field
-          id="form-input-control-last-name"
-          control={Input}
-          label="Nombre"
-          name="from_name"
-          placeholder="Nombre…"
-          required
-          icon="user circle"
-          iconPosition="left"
-        />
-        <Form.Field
-          id="form-textarea-control-opinion"
-          control={TextArea}
-          label="Mensaje"
-          name="message"
-          placeholder="Inserte Mensaje…"
-          required
-        />
-        <Button type="submit" color="green">
-          Enviar
-        </Button>
-      </Form>
-    </div>
+    <Layout>
+      <div className="App">
+        <Form onSubmit={handleOnSubmit}>
+          <Form.Field
+            id="form-input-control-email"
+            control={Input}
+            label="Email"
+            name="from_email"
+            placeholder="Email…"
+            required
+            icon="mail"
+            iconPosition="left"
+          />
+          <Form.Field
+            id="form-input-control-last-name"
+            control={Input}
+            label="Nombre"
+            name="from_name"
+            placeholder="Nombre…"
+            required
+            icon="user circle"
+            iconPosition="left"
+          />
+          <Form.Field
+            id="form-textarea-control-opinion"
+            control={TextArea}
+            label="Mensaje"
+            name="message"
+            placeholder="Inserte Mensaje…"
+            required
+          />
+          <Button type="submit" color="green">
+            Enviar
+          </Button>
+        </Form>
+      </div>
+    </Layout>
   );
 };
 export default App;

@@ -78,7 +78,7 @@ const config = {
             label: "Wiki",
           },
           //{ to: "/blog", label: "Blog", position: "left" },
-          //{ to: "/contact-form", label: "Contacto", position: "left" },
+          { to: "/contact-form", label: "Contacto", position: "left" },
           //{ to: "/helloMarkdown", label: "Prueba Markdown", position: "left" },
           {
             href: "https://github.com/omarMillanCazares/acui-wiki.og",
