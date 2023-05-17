@@ -5,6 +5,8 @@ import Swal from "sweetalert2";
 import emailjs from "emailjs-com";
 import Layout from "@theme/Layout";
 
+//import "semantic-ui-css/semantic.min.css"; this breaks all the css
+
 const SERVICE_ID = "service_bix39o5";
 const TEMPLATE_ID = "template_rpnt4h2";
 const PUBLIC_KEY = "Gs7kYBY35uJnRLtwf";
